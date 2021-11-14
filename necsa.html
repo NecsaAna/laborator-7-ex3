@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css">
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() 
+{
+  document.getElementById("nume").innerHTML = "Prof. Dr. Ing. Necșa Anamaria";
+  document.getElementById("nume2").innerHTML = "Realizari sau experiente in perioada facultatii: ";
+  document.getElementById("nume3").innerHTML = " ";
+  document.getElementById("nume4").innerHTML = " ";
+  document.getElementById("nume5").innerHTML = " ";
+  document.getElementById("nume6").innerHTML = "Balul bobocilor din UTCN 2021 ";
+  document.getElementById("nume7").innerHTML = " ";
+  document.getElementById("nume8").innerHTML = " ";
+  document.getElementById("nume9").innerHTML = "Șefă de promoție 2025 ";
+  document.getElementById("nume10").innerHTML = " ";
+  document.getElementById("nume11").innerHTML = " ";
+  document.getElementById("nume12").innerHTML = "Programul ERASMUS+ pentru studenti";
+  document.getElementById("nume13").innerHTML = " ";
+  document.getElementById("nume14").innerHTML = " ";
+  document.getElementById("nume15").innerHTML = "Work & Travel USA";
+  document.getElementById("nume16").innerHTML = " ";
+  document.getElementById("nume17").innerHTML = " ";
+  document.getElementById("nume18").innerHTML = "sportul";
+  document.getElementById("nume19").innerHTML = "pictura";
+  document.getElementById("nume20").innerHTML = "gatitul";
+   
+  document.getElementById("nume").style.fontFamily = "Courier New";
+  document.getElementById("nume2").style.fontFamily = "Courier New";
+  document.getElementById("nume21").style.fontFamily = "Courier New";
+  document.getElementById("nume22").style.fontFamily = "Courier New";
+  
+  document.body.style.backgroundColor = "LightCyan";
+  
+  document.getElementById("poza").src='necsa2.jpeg';
+  
+  document.getElementById("poza").style.opacity = "1";
+} 
+
+function mouseOver() {
+  document.getElementById("demo").innerHTML = z;
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}
+
+let x = 2021;
+let y = 2002;
+let z = x - y;
+
+
+</script>
+
+</head>
+
+<body>
+
+
+<h1 id="nume">Necșa Anamaria</h1>
+<img id="poza" src="poza.ana.jpeg" alt="Trulli">
+<p id="nume22">Email: <a href="mailto:necsa.ana@yahoo.com">Necsa Anamaria</a>.<br> </p>
+<p>Citat reprezentativ pentru așteptările legate de educație: "Radacinile educatiei sunt amare, dar fructele sunt dulci." </p>
+
+<button type="button" onclick="myFunction()">alta viata</button>
+<h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">02.08.2002</h1>
+
+<p id="nume2">Lista de discipline:  </p>
+<table>
+  <tr>
+    <th id="nume3">disciplina</th>
+    <th id="nume4">link</th>
+	<th id= "nume5">an</th>
+  </tr>
+  <tr>
+    <td id="nume6"> Programarea calculatoarelor și limbaje de programare </td>
+    <td id="nume7"><p><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/11.pdf">materia1</a></p>
+	<td id="nume8"> I </td>
+	</td>
+  </tr>
+  <tr>
+    <td id="nume9">Grafica asistata de calculator</td>
+    <td id="nume10"><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/15.pdf">materia2</a></td>
+	<td id="nume11"> II </td>
+  </tr>
+  <tr>
+	<td id="nume12">Teoria transmiterii informației  </td>
+	<td id="nume13"><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/33.pdf">materia3</a>
+	<td id="nume14"> III </td>
+  </tr>
+  <tr>
+	<td id="nume15">Transmisii de date</td>
+	<td id="nume16"><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/49_10.pdf">materia4</a>
+	<td id="nume17"> IV </td>
+</table>
+
+<p id="nume21">Hobby-uri</p>
+
+<ul>
+  <li id="nume18">gatitul</li>
+  <li id="nume19">cititul</li>
+  <li id="nume20">make-up-ul</li>
+  <li>voluntariatul</li>
+</ul>  
+
+</body>
+<a href="cuprins.html" class="previous">&laquo; inapoi</a>
+</html>
